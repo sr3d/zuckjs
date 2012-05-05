@@ -1,7 +1,6 @@
 ZuckJs::Application.routes.draw do
   get "home/index"
-
-  get "home/install"
+  get "home/install.user" => 'home#install'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

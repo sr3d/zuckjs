@@ -1,2 +1,13 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<h1>I'm Zuck</h1>
+<div id="zuck"></div>
+
+<div> <a href="">Want to make yours?<a/></div>
+
+
+<script type="text/javascript">
+var zuckImg = '<%= image_path 'zuck.jpg' %>';
+$(function() {
+  var z = window.z = new Zuck(zuckImg);
+  $('#zuck').html( z.render().el);
+})
+</script>
