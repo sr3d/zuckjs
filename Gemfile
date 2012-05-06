@@ -22,13 +22,14 @@ end
 
 gem 'jquery-rails'
 gem "rails-backbone"
-
+gem 'koala'
 group :production do
   gem 'pg' 
 end
 
 group :development, :test do
   gem 'mysql2'
+  gem "debugger"
 end
 
 # To use ActiveModel has_secure_password
