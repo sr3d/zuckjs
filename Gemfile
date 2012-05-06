@@ -23,6 +23,10 @@ end
 gem 'jquery-rails'
 gem "rails-backbone"
 gem 'koala'
+gem 'sinatra'
+gem 'sinatra-contrib'
+gem  'rest-client'
+gem 'json'
 group :production do
   gem 'pg' 
 end

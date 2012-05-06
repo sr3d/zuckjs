@@ -1,2 +1,10 @@
 fb_app_id: "346388618750225"
 fb_app_secret: "68829e886776fdb6ae7d709d0d32230c"
+port:               4567
+phone_number:       425-802-8620
+api_key:  "2b1300291846d39102fbecc2e8f5d7f0"
+secret_key: "263098aadc34dc44"
+registration_id_1:  80751514
+registration_id_2:  80751515
+tokens_file:        tokens
+FQDN:               https://api.att.com
